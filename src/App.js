@@ -1,10 +1,10 @@
-
-
+import Home from "./Pages/Home";
+import { Container } from 'reactstrap';
 function App() {
   return (
-    <div className="App">
-        <h2>Hi</h2>
-    </div>
+    <Container fluid="sm">
+        <Home />
+    </Container>
   );
 }
 
